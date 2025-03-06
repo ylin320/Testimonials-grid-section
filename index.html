@@ -5,143 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
     />
 
-    <title>Frontend Mentor | [Challenge Name Here]</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Testimonials grid section</title>
   </head>
   <body>
-    <main class="cards">
-      <article class="card-one">
-        <span class="card-user">
+    <main class="feedback-grid">
+      <article class="feedback-card grid-1">
+        <div class="feedback-header">
           <img
             src="./images/image-daniel.jpg"
             alt="Profile picture of Daniel Clifford"
           />
-          <div class="user-content">
-            <h2 class="user-name">Daniel Clifford</h2>
-            <p class="user-status">Verified Graduate</p>
+          <div class="author-info">
+            <h2 class="author-name">Daniel Clifford</h2>
+            <p class="author-status">Verified Graduate</p>
           </div>
-          <div class="card-review">
-            <h1 class="review-point">
+          <div class="feedback-content">
+            <h1 class="feedback-title">
               I received a job offer mid-course, and the subjects I learned were
               current, if not more so, in the company I joined. I honestly feel
-              I got every penny’s worth.
+              I got every penny's worth.
             </h1>
-            <p class="review-detail">
-              “ I was an EMT for many years before I joined the bootcamp. I’ve
+            <p class="feedback-text">
+              " I was an EMT for many years before I joined the bootcamp. I've
               been looking to make a transition and have heard some people who
               had an amazing experience here. I signed up for the free intro
               course and found it incredibly fun! I enrolled shortly thereafter.
               The next 12 weeks was the best - and most grueling - time of my
-              life. Since completing the course, I’ve successfully switched
-              careers, working as a Software Engineer at a VR startup. ”
+              life. Since completing the course, I've successfully switched
+              careers, working as a Software Engineer at a VR startup. "
             </p>
           </div>
-        </span>
+        </div>
       </article>
-      <article class="card-two">
-        <span class="card-user">
+      <article class="feedback-card grid-2">
+        <div class="feedback-header">
           <img
             src="./images/image-jonathan.jpg"
             alt="Profile picture of Jonathan Walters"
           />
-          <div class="user-content">
-            <h2 class="user-name">Jonathan Walters</h2>
-            <p class="user-status">Verified Graduate</p>
+          <div class="author-info">
+            <h2 class="author-name">Jonathan Walters</h2>
+            <p class="author-status">Verified Graduate</p>
           </div>
-          <div class="card-review">
-            <h1 class="review-point">
+          <div class="feedback-content">
+            <h1 class="feedback-title">
               The team was very supportive and kept me motivated
             </h1>
-            <p class="review-detail">
-              “ I started as a total newbie with virtually no coding skills. I
+            <p class="feedback-text">
+              " I started as a total newbie with virtually no coding skills. I
               now work as a mobile engineer for a big company. This was one of
-              the best investments I’ve made in myself. ”
+              the best investments I've made in myself. "
             </p>
           </div>
-        </span>
+        </div>
       </article>
-      <article class="card-three">
-        <span class="card-user">
+      <article class="feedback-card grid-3">
+        <div class="feedback-header">
           <img
             src="./images/image-jeanette.jpg"
             alt="Profile picture of Jeanette Harmon"
           />
-          <div class="user-content">
-            <h2 class="user-name">Jeanette Harmon</h2>
-            <p class="user-status">Verified Graduate</p>
+          <div class="author-info">
+            <h2 class="author-name">Jeanette Harmon</h2>
+            <p class="author-status">Verified Graduate</p>
           </div>
-          <div class="card-review">
-            <h1 class="review-point">
+          <div class="feedback-content">
+            <h1 class="feedback-title">
               An overall wonderful and rewarding experience
             </h1>
-            <p class="review-detail">
-              “ Thank you for the wonderful experience! I now have a job I
+            <p class="feedback-text">
+              " Thank you for the wonderful experience! I now have a job I
               really enjoy, and make a good living while doing something I love.
-              ”
+              "
             </p>
           </div>
-        </span>
+        </div>
       </article>
-      <article class="card-four">
-        <span class="card-user">
+      <article class="feedback-card grid-4">
+        <div class="feedback-header">
           <img
             src="./images/image-patrick.jpg"
             alt="Profile picture of Patrick Abrams"
           />
-          <div class="user-content">
-            <h2 class="user-name">Patrick Abrams</h2>
-            <p class="user-status">Verified Graduate</p>
+          <div class="author-info">
+            <h2 class="author-name">Patrick Abrams</h2>
+            <p class="author-status">Verified Graduate</p>
           </div>
-          <div class="card-review">
-            <h1 class="review-point">
+          <div class="feedback-content">
+            <h1 class="feedback-title">
               Awesome teaching support from TAs who did the bootcamp themselves.
               Getting guidance from them and learning from their experiences was
               easy.
             </h1>
-            <p class="review-detail">
-              “ The staff seem genuinely concerned about my progress which I
+            <p class="feedback-text">
+              " The staff seem genuinely concerned about my progress which I
               find really refreshing. The program gave me the confidence
               necessary to be able to go out in the world and present myself as
               a capable junior developer. The standard is above the rest. You
               will get the personal attention you need from an incredible
-              community of smart and amazing people. ”
+              community of smart and amazing people. "
             </p>
           </div>
-        </span>
+        </div>
       </article>
-      <article class="card-five">
-        <span class="card-user">
+      <article class="feedback-card grid-5">
+        <div class="feedback-header">
           <img
             src="./images/image-kira.jpg"
             alt="Profile picture of Kira Whittle"
           />
-          <div class="user-content">
-            <h2 class="user-name">Kira Whittle</h2>
-            <p class="user-status">Verified Graduate</p>
+          <div class="author-info">
+            <h2 class="author-name">Kira Whittle</h2>
+            <p class="author-status">Verified Graduate</p>
           </div>
-          <div class="card-review">
-            <h1 class="review-point">
+          <div class="feedback-content">
+            <h1 class="feedback-title">
               Such a life-changing experience. Highly recommended!
             </h1>
-            <p class="review-detail">
-              “ Before joining the bootcamp, I’ve never written a line of code.
+            <p class="feedback-text">
+              " Before joining the bootcamp, I've never written a line of code.
               I needed some structure from professionals who can help me learn
               programming step by step. I was encouraged to enroll by a former
               student of theirs who can only say wonderful things about the
@@ -149,13 +139,13 @@
               were very hands-on and I never had to wait long for assistance.
               The agile team project, in particular, was outstanding. It took my
               learning to the next level in a way that no tutorial could ever
-              have. In fact, I’ve often referred to it during interviews as an
+              have. In fact, I've often referred to it during interviews as an
               example of my developent experience. It certainly helped me land a
               job as a full-stack developer after receiving multiple offers.
-              100% recommend! ”
+              100% recommend! "
             </p>
           </div>
-        </span>
+        </div>
       </article>
     </main>
   </body>
